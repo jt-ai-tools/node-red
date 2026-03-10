@@ -1,100 +1,99 @@
 <div align="center">
 
-[![License][badge-license]][link-license] [![Build Status][badge-build]][link-build]
+[![授權條款][badge-license]][link-license] [![建置狀態][badge-build]][link-build]
 
-<br/><img src="https://nodered.org/about/resources/media/node-red-icon-2.svg" width="150" title="Node-RED Logo"><br/>
+<br/><img src="https://nodered.org/about/resources/media/node-red-icon-2.svg" width="150" title="Node-RED 圖標"><br/>
 
-[![Nodes][badge-nodes]][link-nodes] [![Flows][badge-flows]][link-flows] [![Collections][badge-collections]][link-collections]
+[![節點][badge-nodes]][link-nodes] [![流程][badge-flows]][link-flows] [![集合][badge-collections]][link-collections]
 
-[繁體中文](./README_zh_TW.md)
+### 用於事件驅動應用程式的低代碼編程工具
 
-### Low-code programming for event-driven applications
+<br/><img src="https://nodered.org/images/node-red-screenshot.png" width="600" alt="Node-RED 螢幕截圖"><br/>
 
-<br/><img src="https://nodered.org/images/node-red-screenshot.png" width="600" alt="Node-RED Screenshot"><br/>
+[![論壇][badge-forum]][link-forum] [![GitHub][badge-github]][link-github] [![Slack][badge-slack]][link-slack]
 
-[![Forum][badge-forum]][link-forum] [![GitHub][badge-github]][link-github] [![Slack][badge-slack]][link-slack]
+[English](./README.md)
 
 </div>
 
-## Quick Start
+## 快速入門
 
-Check out https://nodered.org/docs/getting-started/ for full instructions on getting
-started.
+請參閱 https://nodered.org/docs/getting-started/ 以獲取完整的入門指南。
 
 1. `sudo npm install -g --unsafe-perm node-red`
 2. `node-red`
-3. Open <http://localhost:1880>
+3. 開啟 <http://localhost:1880>
 
 <br/>
 
 > [!NOTE]
-> More documentation can be found [here](https://nodered.org/docs). For further help, or general discussion, please join the [Node-RED Forum](https://discourse.nodered.org) or [Node-RED Slack](https://nodered.org/slack).
+> 更多文件可以在 [這裡](https://nodered.org/docs) 找到。如需進一步幫助或一般討論，請加入 [Node-RED 論壇](https://discourse.nodered.org) 或 [Node-RED Slack](https://nodered.org/slack)。
 
-## Links
+## 連結
 
-- [Documentation ↗](https://nodered.org/docs/)
-- [About ↗](https://nodered.org/about/)
-- [Installation ↗](https://nodered.org/#get-started)
-- [Node-RED Library ↗](https://flows.nodered.org/)
-  - [Custom Nodes & Integrations ↗](https://flows.nodered.org/search?type=node)
-  - [Shared Flows ↗](https://flows.nodered.org/search?type=flow)
-  - [Node Collections ↗](https://flows.nodered.org/search?type=collection)
-- [Development](#development)
-- [Contributing](#contributing)
-- [Copyright and license](#copyright-and-license)
+- [文件 ↗](https://nodered.org/docs/)
+- [關於 ↗](https://nodered.org/about/)
+- [安裝 ↗](https://nodered.org/#get-started)
+- [Node-RED 函式庫 ↗](https://flows.nodered.org/)
+  - [自定義節點與整合 ↗](https://flows.nodered.org/search?type=node)
+  - [共享流程 ↗](https://flows.nodered.org/search?type=flow)
+  - [節點集合 ↗](https://flows.nodered.org/search?type=collection)
+- [開發](#開發)
+- [貢獻](#貢獻)
+- [版權與授權](#版權與授權)
 
-## Development
+## 開發
 
-If you want to run the latest code from git, here's how to get started:
+如果您想從 git 執行最新的代碼，請按照以下步驟操作：
 
-1. Clone the code:
+1. 複製代碼：
 
         git clone https://github.com/node-red/node-red.git
         cd node-red
 
-2. Install the node-red dependencies
+2. 安裝 node-red 依賴項
 
         npm ci
 
-3. Build the code
+3. 建置代碼
 
         npm run build
 
-4. Run
+4. 執行
 
         npm start
 
-## Contributing
+## 貢獻
 
-Before raising a pull-request, please read our [contributing guide](https://github.com/node-red/node-red/blob/master/CONTRIBUTING.md).
+在提交 Pull Request 之前，請閱讀我們的 [貢獻指南](https://github.com/node-red/node-red/blob/master/CONTRIBUTING_zh_TW.md)。
 
-This project adheres to the [Contributor Covenant 1.4](http://contributor-covenant.org/version/1/4/). By participating, you are expected to uphold this code. Please report unacceptable behavior to any of the project's core team at team@nodered.org.
+本專案遵循 [Contributor Covenant 1.4](http://contributor-covenant.org/version/1/4/)。參與本專案即表示您被期望遵守此規範。請向專案核心團隊 team@nodered.org 舉報任何不可接受的行為。
 
-### Star history
+### Star 歷史
 
 <a href="https://star-history.com/#node-red/node-red&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=node-red/node-red&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=node-red/node-red&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=node-red/node-red&type=Date" width="100%" />
+   <img alt="Star History 圖表" src="https://api.star-history.com/svg?repos=node-red/node-red&type=Date" width="100%" />
  </picture>
 </a>
 
-### Contributors
+### 貢獻者
 
-It is maintained by:
+維護者包括：
 
  * Nick O'Leary [@knolleary](http://twitter.com/knolleary)
  * Dave Conway-Jones [@ceejay](http://twitter.com/ceejay)
- * And many others:
+ * 以及許多其他貢獻者：
 
 <a href="https://github.com/node-red/node-red/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=node-red/node-red" width="100%"/>
 </a>
 
-## Copyright and License
+## 版權與授權
 
-Node-RED is a project of the [OpenJS Foundation](http://openjsf.org). Copyright OpenJS Foundation and other contributors, https://openjsf.org under [the Apache 2.0 license](LICENSE).
+Node-RED 是 [OpenJS 基金會](http://openjsf.org) 的專案。版權歸 OpenJS 基金會及其他貢獻者所有，網址為 https://openjsf.org，根據 [Apache 2.0 授權條款](LICENSE) 發佈。
 
 <br/>
 <a href="http://openjsf.org">
